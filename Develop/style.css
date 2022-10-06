@@ -15,8 +15,10 @@ body {
   border-radius: 12px;
 }
 .hour {
+  text-decoration: none;
   color: #404272;
   background-color: #edf6f8;
+ font-size: 26px;
   border-top: 2px dashed #6c6496;
 }
 textarea{
@@ -51,6 +53,8 @@ textarea{
   color: white;
 }
 .past {
+  /* text-decoration: line-through;
+  text-decoration-color: rgb(71, 49, 84); */
   background-color: #d1d9de;
   color: rgb(251, 251, 251);
 }

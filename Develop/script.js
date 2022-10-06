@@ -34,6 +34,7 @@ function background () {
         // Past
         if (divTimeId < currentHour) {
             $(this).addClass("past");
+
             // Present
         } else if (divTimeId === currentHour) {
             $(this).removeClass("past");
