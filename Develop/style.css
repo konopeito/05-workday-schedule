@@ -1,0 +1,63 @@
+body {
+  color: rgb(63, 55, 98);
+  font-family: 'Advent Pro';
+  font-size: 22px;
+  line-height: 1;
+}
+.jumbotron {
+  background-color: #d3ecf2;
+  text-align: center;
+  color: rgb(66, 27, 94);
+  border-bottom: 4px solid rgb(52, 43, 69);
+}
+.time-block {
+  text-align: center;
+  border-radius: 12px;
+}
+.hour {
+  color: #404272;
+  background-color: #edf6f8;
+  border-top: 2px dashed #6c6496;
+}
+textarea{
+  border-left: 1px solid rgb(48, 47, 64);
+  color: #17043f;
+  background: none;
+  padding: 15px;
+}
+
+.saveBtn {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #c9eaf1;
+  color: rgb(28, 7, 92);
+  border-left: 1px solid rgb(56, 32, 82);
+  
+}
+
+.saveBtn i:hover {
+  color: aliceblue;
+  font-size: 17px;
+  transition: all .5s ease-in-out;
+}
+
+.row {
+  height: 92px;
+  border-top: 6px solid white;
+}
+
+.future {
+  background-color: #6dcf6d;
+  color: white;
+}
+.past {
+  background-color: #d1d9de;
+  color: rgb(251, 251, 251);
+}
+
+.present {
+  background-color: #ed5851;
+  color: white;
+}
+
+
